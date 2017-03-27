@@ -1,0 +1,7 @@
+<h1>Edit</h1>
+
+
+<%= form_for @appearance, method:"PATCH" do |f| %>
+<%= f.number_field :rating, placeholder: "rating"  %>
+<%= f.submit %>
+<% end %>
